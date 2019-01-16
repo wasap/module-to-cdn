@@ -394,5 +394,14 @@
         "production": "https://unpkg.com/jquery@[version]/dist/jquery.min.js"
       }
     }
+  },
+  "when": {
+    "var": "when",
+    "versions": {
+      "*": {
+        "development": "https://cdnjs.cloudflare.com/ajax/libs/when/[version]/when.js",
+        "production": "https://cdnjs.cloudflare.com/ajax/libs/when/[version]/when.min.js"
+      }
+    }
   }
 }
